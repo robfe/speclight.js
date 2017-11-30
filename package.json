@@ -1,0 +1,29 @@
+{
+  "name": "speclight",
+  "version": "1.0.0",
+  "description": "speclight is a simple JavaScript BDD framework for Jasmine",
+  "main": "lib/speclight.js",
+  "typings": "lib/speclight.d.ts",
+  "dependencies": {},
+  "devDependencies": {
+    "tslint": "^5.8.0",
+    "tslint-config-airbnb": "^5.4.2",
+    "typescript": "^2.6.2"
+  },
+  "scripts": {
+    "build": "tsc --outDir lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/robfe/speclight-js.git"
+  },
+  "author": "Rob Fonseca-Ensor",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/robfe/speclight-js/issues"
+  },
+  "homepage": "https://github.com/robfe/speclight-js#readme",
+  "peerDependencies": {
+    "jasmine": "2.x"
+  }
+}
