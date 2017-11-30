@@ -14,8 +14,9 @@
     "typescript": "^2.6.2"
   },
   "scripts": {
-    "build": "tsc --outDir lib",
-    "example": "jasmine-ts --config=jasmine.json \"examples/example.ts\""
+    "build": "tsc --outDir lib --declaration \"src/speclight.ts\"",
+    "example": "jasmine-ts --config=jasmine.json \"examples/example.ts\"",
+    "prepublish": "(if exist \"lib\" rd /s /q \"lib\") && npm run build"
   },
   "repository": {
     "type": "git",
