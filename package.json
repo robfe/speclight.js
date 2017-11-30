@@ -6,12 +6,16 @@
   "typings": "lib/speclight.d.ts",
   "dependencies": {},
   "devDependencies": {
+    "@types/node": "^8.0.53",
+    "jasmine-spec-reporter": "^4.2.1",
+    "jasmine-ts": "^0.2.1",
     "tslint": "^5.8.0",
     "tslint-config-airbnb": "^5.4.2",
     "typescript": "^2.6.2"
   },
   "scripts": {
-    "build": "tsc --outDir lib"
+    "build": "tsc --outDir lib",
+    "example": "jasmine-ts --config=jasmine.json \"examples/example.ts\""
   },
   "repository": {
     "type": "git",
