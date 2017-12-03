@@ -20,14 +20,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/robfe/speclight-js.git"
+    "url": "git+https://github.com/robfe/speclight.js.git"
   },
   "author": "Rob Fonseca-Ensor",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/robfe/speclight-js/issues"
+    "url": "https://github.com/robfe/speclight.js/issues"
   },
-  "homepage": "https://github.com/robfe/speclight-js#readme",
+  "homepage": "https://github.com/robfe/speclight.js#readme",
   "peerDependencies": {
     "jasmine": "2.x"
   }
