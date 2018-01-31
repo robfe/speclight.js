@@ -6,6 +6,7 @@
   "typings": "lib/speclight.d.ts",
   "dependencies": {},
   "devDependencies": {
+    "@types/jasmine": "^2.8.6",
     "@types/node": "^8.0.53",
     "jasmine-spec-reporter": "^4.2.1",
     "jasmine-ts": "^0.2.1",
@@ -14,9 +15,9 @@
     "typescript": "^2.6.2"
   },
   "scripts": {
-    "build": "tsc --outDir lib --declaration \"src/speclight.ts\"",
+    "build": "tsc --outDir lib --declaration \"./src/speclight.ts\"",
     "example": "jasmine-ts --config=jasmine.json \"examples/example.ts\"",
-    "prepublish": "(if exist \"lib\" rd /s /q \"lib\") && npm run build"
+    "prepublish": "rm -rf ./lib && npm run build"
   },
   "repository": {
     "type": "git",
