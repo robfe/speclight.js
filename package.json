@@ -17,7 +17,7 @@
   "scripts": {
     "build": "tsc --outDir lib --declaration \"./src/speclight.ts\"",
     "example": "jasmine-ts --config=jasmine.json \"examples/example.ts\"",
-    "prepublish": "rm -rf ./lib && npm run build"
+    "prepublish": "rimraf ./lib && npm run build"
   },
   "repository": {
     "type": "git",
